@@ -7,42 +7,66 @@
 
  :: Spring Boot ::                (v4.0.0)
 
-2025-12-03T14:48:13.868+01:00  INFO 4822 --- [demo] [           main] com.example.demo.DemoApplicationKt       : Starting DemoApplicationKt using Java 21.0.9 with PID 4822 (/home/xan/Documenti/demo/build/classes/kotlin/main started by xan in /home/xan/Documenti/demo)
-2025-12-03T14:48:13.871+01:00  INFO 4822 --- [demo] [           main] com.example.demo.DemoApplicationKt       : No active profile set, falling back to 1 default profile: "default"
-2025-12-03T14:48:14.377+01:00  INFO 4822 --- [demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-12-03T14:48:14.396+01:00  INFO 4822 --- [demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
-2025-12-03T14:48:14.612+01:00  INFO 4822 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
-2025-12-03T14:48:14.618+01:00  INFO 4822 --- [demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2025-12-03T14:48:14.618+01:00  INFO 4822 --- [demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
-2025-12-03T14:48:14.637+01:00  INFO 4822 --- [demo] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 739 ms
-2025-12-03T14:48:14.696+01:00  INFO 4822 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2025-12-03T14:48:14.781+01:00  INFO 4822 --- [demo] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:5d96d904-0bfd-4024-b978-e37a8024d5d1 user=SA
-2025-12-03T14:48:14.782+01:00  INFO 4822 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2025-12-03T14:48:14.796+01:00  INFO 4822 --- [demo] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-12-03T14:48:14.818+01:00  INFO 4822 --- [demo] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
-2025-12-03T14:48:15.037+01:00  INFO 4822 --- [demo] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-12-03T14:48:15.076+01:00  INFO 4822 --- [demo] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [jdbc:h2:mem:5d96d904-0bfd-4024-b978-e37a8024d5d1]
+2025-12-03T16:36:35.271+01:00  INFO 6499 --- [demo] [           main] com.example.demo.DemoApplicationKt       : Starting DemoApplicationKt using Java 21.0.9 with PID 6499 (/home/xan/Documenti/demo/build/classes/kotlin/main started by xan in /home/xan/Documenti/demo)
+2025-12-03T16:36:35.274+01:00  INFO 6499 --- [demo] [           main] com.example.demo.DemoApplicationKt       : No active profile set, falling back to 1 default profile: "default"
+2025-12-03T16:36:35.747+01:00  INFO 6499 --- [demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-03T16:36:35.766+01:00  INFO 6499 --- [demo] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2025-12-03T16:36:35.976+01:00  INFO 6499 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-03T16:36:35.983+01:00  INFO 6499 --- [demo] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-03T16:36:35.983+01:00  INFO 6499 --- [demo] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-03T16:36:36.004+01:00  INFO 6499 --- [demo] [           main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 705 ms
+2025-12-03T16:36:36.013+01:00 DEBUG 6499 --- [demo] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2025-12-03T16:36:36.013+01:00 DEBUG 6499 --- [demo] [           main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/]
+2025-12-03T16:36:36.067+01:00  INFO 6499 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-12-03T16:36:36.153+01:00  INFO 6499 --- [demo] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:4a3fc927-eaff-4ac3-a8ca-c3c8982f03b2 user=SA
+2025-12-03T16:36:36.154+01:00  INFO 6499 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-12-03T16:36:36.169+01:00  INFO 6499 --- [demo] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-03T16:36:36.191+01:00  INFO 6499 --- [demo] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-03T16:36:36.416+01:00  INFO 6499 --- [demo] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-03T16:36:36.456+01:00  INFO 6499 --- [demo] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:mem:4a3fc927-eaff-4ac3-a8ca-c3c8982f03b2]
 	Database driver: H2 JDBC Driver
 	Database dialect: H2Dialect
 	Database version: 2.4.240
-	Default catalog/schema: 5D96D904-0BFD-4024-B978-E37A8024D5D1/PUBLIC
+	Default catalog/schema: 4A3FC927-EAFF-4AC3-A8CA-C3C8982F03B2/PUBLIC
 	Autocommit mode: undefined/unknown
 	Isolation level: READ_COMMITTED [default READ_COMMITTED]
 	JDBC fetch size: 100
 	Pool: DatasourceConnectionProviderImpl
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2025-12-03T14:48:15.495+01:00  INFO 4822 --- [demo] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-12-03T14:48:15.520+01:00  INFO 4822 --- [demo] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-12-03T14:48:15.560+01:00  INFO 4822 --- [demo] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
-2025-12-03T14:48:15.707+01:00  WARN 4822 --- [demo] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-12-03T14:48:15.950+01:00  INFO 4822 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
-2025-12-03T14:48:15.953+01:00  INFO 4822 --- [demo] [           main] com.example.demo.DemoApplicationKt       : Started DemoApplicationKt in 2.283 seconds (process running for 2.559)
-2025-12-03T14:48:16.093+01:00  INFO 4822 --- [demo] [           main] .s.b.a.l.ConditionEvaluationReportLogger :
+2025-12-03T16:36:36.806+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create global temporary table HTE_a(rn_ integer not null, b_id bigint, id bigint, primary key (rn_)) transactional
+2025-12-03T16:36:36.809+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create global temporary table HTE_b(rn_ integer not null, c_id bigint, id bigint, primary key (rn_)) transactional
+2025-12-03T16:36:36.809+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create global temporary table HTE_c(rn_ integer not null, id bigint, primary key (rn_)) transactional
+2025-12-03T16:36:36.876+01:00  INFO 6499 --- [demo] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-03T16:36:36.884+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists a cascade
+2025-12-03T16:36:36.885+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists b cascade
+2025-12-03T16:36:36.885+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists c cascade
+2025-12-03T16:36:36.885+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists a_seq
+2025-12-03T16:36:36.885+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists b_seq
+2025-12-03T16:36:36.886+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists c_seq
+2025-12-03T16:36:36.888+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create sequence a_seq start with 1 increment by 50
+2025-12-03T16:36:36.889+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create sequence b_seq start with 1 increment by 50
+2025-12-03T16:36:36.889+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create sequence c_seq start with 1 increment by 50
+2025-12-03T16:36:36.891+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create table a (b_id bigint, id bigint not null, primary key (id))
+2025-12-03T16:36:36.891+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create table b (c_id bigint, id bigint not null, primary key (id))
+2025-12-03T16:36:36.892+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : create table c (id bigint not null, primary key (id))
+2025-12-03T16:36:36.892+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : alter table if exists a add constraint FKh2icx52jhor7siuxpgqqki6bi foreign key (b_id) references b
+2025-12-03T16:36:36.899+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : alter table if exists b add constraint FKsy66o41hbsococag8m1sgeclh foreign key (c_id) references c
+2025-12-03T16:36:36.902+01:00  INFO 6499 --- [demo] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03T16:36:36.942+01:00  INFO 6499 --- [demo] [           main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-12-03T16:36:37.095+01:00  WARN 6499 --- [demo] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-12-03T16:36:37.194+01:00 DEBUG 6499 --- [demo] [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : 2 mappings in 'requestMappingHandlerMapping'
+2025-12-03T16:36:37.205+01:00 DEBUG 6499 --- [demo] [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-12-03T16:36:37.218+01:00 DEBUG 6499 --- [demo] [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-12-03T16:36:37.237+01:00 DEBUG 6499 --- [demo] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-12-03T16:36:37.250+01:00 DEBUG 6499 --- [demo] [           main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 0 ResponseBodyAdvice
+2025-12-03T16:36:37.341+01:00  INFO 6499 --- [demo] [           main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-03T16:36:37.344+01:00  INFO 6499 --- [demo] [           main] com.example.demo.DemoApplicationKt       : Started DemoApplicationKt in 2.257 seconds (process running for 2.541)
+2025-12-03T16:36:37.488+01:00  INFO 6499 --- [demo] [           main] .s.b.a.l.ConditionEvaluationReportLogger :
 
 Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
-2025-12-03T14:48:16.099+01:00 ERROR 4822 --- [demo] [           main] o.s.boot.SpringApplication               : Application run failed
+2025-12-03T16:36:37.494+01:00 ERROR 6499 --- [demo] [           main] o.s.boot.SpringApplication               : Application run failed
 
 org.springframework.data.jpa.repository.query.BadJpqlGrammarException: org.hibernate.query.PathException: Plural path 'com.example.demo.C(c).bbb' refers to a collection and so element attribute 'aaa' may not be referenced directly (use element() function); Bad SELECT c FROM C c WHERE c.bbb.aaa IS NOT EMPTY grammar [JPQL]
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery$QueryPreparer.createQuery(PartTreeJpaQuery.java:239) ~[spring-data-jpa-4.0.0.jar:4.0.0]
@@ -139,10 +163,16 @@ Caused by: org.hibernate.query.PathException: Plural path 'com.example.demo.C(c)
 	at org.hibernate.internal.AbstractSharedSessionContract.createQuery(AbstractSharedSessionContract.java:928) ~[hibernate-core-7.1.8.Final.jar:7.1.8.Final]
 	... 52 common frames omitted
 
-2025-12-03T14:48:16.103+01:00  INFO 4822 --- [demo] [           main] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
-2025-12-03T14:48:16.104+01:00  INFO 4822 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
-2025-12-03T14:48:16.106+01:00  INFO 4822 --- [demo] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2025-12-03T14:48:16.108+01:00  INFO 4822 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2025-12-03T14:48:16.109+01:00  INFO 4822 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-12-03T16:36:37.498+01:00  INFO 6499 --- [demo] [           main] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-03T16:36:37.499+01:00  INFO 6499 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-12-03T16:36:37.501+01:00  INFO 6499 --- [demo] [           main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-03T16:36:37.501+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists a cascade
+2025-12-03T16:36:37.502+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists b cascade
+2025-12-03T16:36:37.502+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop table if exists c cascade
+2025-12-03T16:36:37.502+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists a_seq
+2025-12-03T16:36:37.503+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists b_seq
+2025-12-03T16:36:37.503+01:00 DEBUG 6499 --- [demo] [           main] org.hibernate.SQL                        : drop sequence if exists c_seq
+2025-12-03T16:36:37.504+01:00  INFO 6499 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-12-03T16:36:37.505+01:00  INFO 6499 --- [demo] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 
 Process finished with exit code 1
